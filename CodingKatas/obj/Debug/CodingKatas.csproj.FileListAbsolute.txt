@@ -1,0 +1,14 @@
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKatas\bin\Debug\CodingKatas.exe.config
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKatas\bin\Debug\CodingKatas.exe
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKatas\bin\Debug\CodingKatas.pdb
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKatas\obj\Debug\CodingKatas.csprojResolveAssemblyReference.cache
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKatas\obj\Debug\CodingKatas.exe
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKatas\obj\Debug\CodingKatas.pdb
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKatas\bin\Debug\CodingKatas.exe.config
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKatas\obj\Debug\CodingKatas.exe
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKatas\obj\Debug\CodingKatas.pdb
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKatas\bin\Debug\CodingKatas.exe
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKatas\bin\Debug\CodingKatas.pdb
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKatas\bin\Debug\CodingKatas.exe.config
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKatas\obj\Debug\CodingKatas.exe
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKatas\obj\Debug\CodingKatas.pdb

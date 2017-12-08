@@ -1,0 +1,14 @@
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataClassLibrary\bin\Debug\CodingKataClassLibrary.dll
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataClassLibrary\bin\Debug\CodingKataClassLibrary.pdb
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataClassLibrary\obj\Debug\CodingKataClassLibrary.csprojResolveAssemblyReference.cache
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataClassLibrary\obj\Debug\CodingKataClassLibrary.dll
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataClassLibrary\obj\Debug\CodingKataClassLibrary.pdb
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKataClassLibrary\bin\Debug\CodingKataClassLibrary.dll
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKataClassLibrary\bin\Debug\CodingKataClassLibrary.pdb
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKataClassLibrary\obj\Debug\CodingKataClassLibrary.dll
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKataClassLibrary\obj\Debug\CodingKataClassLibrary.pdb
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataClassLibrary\bin\Debug\CodingKataClassLibrary.dll
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataClassLibrary\bin\Debug\CodingKataClassLibrary.pdb
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataClassLibrary\obj\Debug\CodingKataClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataClassLibrary\obj\Debug\CodingKataClassLibrary.dll
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataClassLibrary\obj\Debug\CodingKataClassLibrary.pdb

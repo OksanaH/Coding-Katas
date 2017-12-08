@@ -1,0 +1,28 @@
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataTests\obj\Debug\CodingKataTests.csprojResolveAssemblyReference.cache
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataTests\bin\Debug\CodingKataTests.dll
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataTests\bin\Debug\CodingKataTests.pdb
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataTests\bin\Debug\CodingKataClassLibrary.dll
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataTests\bin\Debug\nunit.framework.dll
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataTests\bin\Debug\CodingKataClassLibrary.pdb
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataTests\bin\Debug\nunit.framework.xml
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataTests\obj\Debug\CodingKataTests.dll
+c:\users\oxana\documents\visual studio 2015\Projects\CodingKatas\CodingKataTests\obj\Debug\CodingKataTests.pdb
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKataTests\bin\Debug\CodingKataTests.dll
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKataTests\bin\Debug\CodingKataTests.pdb
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKataTests\bin\Debug\CodingKataClassLibrary.dll
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKataTests\bin\Debug\nunit.framework.dll
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKataTests\bin\Debug\CodingKataClassLibrary.pdb
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKataTests\bin\Debug\nunit.framework.xml
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKataTests\obj\Debug\CodingKataTests.csprojResolveAssemblyReference.cache
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKataTests\obj\Debug\CodingKataTests.dll
+C:\Users\Oxana\Documents\GitHub\My-100-days-of-programming-and-learning\CodingKatas\CodingKataTests\obj\Debug\CodingKataTests.pdb
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataTests\bin\Debug\CodingKataTests.dll
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataTests\bin\Debug\CodingKataTests.pdb
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataTests\bin\Debug\CodingKataClassLibrary.dll
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataTests\bin\Debug\nunit.framework.dll
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataTests\bin\Debug\CodingKataClassLibrary.pdb
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataTests\bin\Debug\nunit.framework.xml
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataTests\obj\Debug\CodingKataTests.csprojResolveAssemblyReference.cache
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataTests\obj\Debug\CodingKataTests.dll
+C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataTests\obj\Debug\CodingKataTests.pdb
