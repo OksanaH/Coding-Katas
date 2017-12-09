@@ -9,7 +9,7 @@ namespace CodingKataTests
     [Category("PrimeFactors")]
     public class EulerProject_Exercise2_Test
     {
-        //https://projecteuler.net/problem=2
+        //https://projecteuler.net/problem=3
         [TestCase(15, new int [] { 3, 5 })]
         public void Verify_PrimeFactorsArray_IsCreated_OnClass_Instantiation(int number, int?[] expectedprimeFactorsArray)
         {           
@@ -38,7 +38,7 @@ namespace CodingKataTests
         [TestCase(6)]
         [TestCase(21)]
         [TestCase(36)]
-        //https://projecteuler.net/problem=2
+        //https://projecteuler.net/problem=3
 
         public void Verify_Number_Is_Not_Prime(int number)
         {
@@ -47,7 +47,7 @@ namespace CodingKataTests
             Assert.IsFalse(actual);
         }
        
-        //https://projecteuler.net/problem=2
+        //https://projecteuler.net/problem=3
         [TestCase(2, new int[] { 2, 3}, 6)]
         [TestCase(2, new int[] { 4, 10 }, 40)]
         public void Verify_Multiplicator_CanMultiply_TwoNumbers(int numFactors, int[] factors, int result)
@@ -56,7 +56,7 @@ namespace CodingKataTests
             Assert.AreEqual(result, multiplicator.Multiply(factors));
         }
 
-        //https://projecteuler.net/problem=2
+        //https://projecteuler.net/problem=3
         [TestCase(3, new int[] { 4, 7, 10 }, 280)]
         [TestCase(3, new int[] { 5, 7, 11 }, 385)]
         public void Verify_Multiplicator_CanMultiply_ThreeNumbers(int numFactors, int[] factors, int result)
