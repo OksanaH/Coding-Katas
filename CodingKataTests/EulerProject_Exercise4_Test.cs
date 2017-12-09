@@ -32,7 +32,7 @@ namespace CodingKataTests
         [TestMethod] 
         public void Verify_CanGet_SmallestNumber_With3Digits()
         {
-            PalindromeFinder ggpf = new PalindromeFinder(3);
+            PalindromeFinder pf = new PalindromeFinder(3);
             Assert.AreEqual(100, pf.SmallestNumber);
         }
         [TestMethod]

@@ -12,3 +12,7 @@ C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataClassLibrary\b
 C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataClassLibrary\obj\Debug\CodingKataClassLibrary.csprojResolveAssemblyReference.cache
 C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataClassLibrary\obj\Debug\CodingKataClassLibrary.dll
 C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKataClassLibrary\obj\Debug\CodingKataClassLibrary.pdb
+C:\Users\Oxana\Documents\Programming\GitHub\Coding-Katas\CodingKataClassLibrary\bin\Debug\CodingKataClassLibrary.dll
+C:\Users\Oxana\Documents\Programming\GitHub\Coding-Katas\CodingKataClassLibrary\bin\Debug\CodingKataClassLibrary.pdb
+C:\Users\Oxana\Documents\Programming\GitHub\Coding-Katas\CodingKataClassLibrary\obj\Debug\CodingKataClassLibrary.dll
+C:\Users\Oxana\Documents\Programming\GitHub\Coding-Katas\CodingKataClassLibrary\obj\Debug\CodingKataClassLibrary.pdb

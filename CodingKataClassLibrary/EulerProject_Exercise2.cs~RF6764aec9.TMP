@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CodingKataClassLibrary
+{
+    public class PrimeNumberFinder
+    {        
+
+        public PrimeNumberFinder()
+        {
+
+        }
+        public bool IsPrimeNumber(int number)
+        {
+           // bool isPrimeNumber = false;
+            for (int i=2; i<=number; i++)
+            {
+                if (number % i == 0)
+                {
+                   return false;
+                }
+                if (i==number)
+                {
+                    return true;
+                }
+            }
+
+            //return isPrimeNumber;
+
+        }
+    }
+    
+
+}
