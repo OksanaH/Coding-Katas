@@ -40,12 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EulerProject_Exercise4.cs" />
-    <Compile Include="EulerProject_Exercise19.cs" />
     <Compile Include="EulerProject_Exercise5.cs" />
-    <Compile Include="NumbersInWords.cs" />
     <Compile Include="HarryBooks.cs" />
-    <Compile Include="RomanNumerals.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

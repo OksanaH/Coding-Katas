@@ -17,4 +17,3 @@ C:\Users\Oxana\Documents\Programming\GitHub\Coding-Katas\CodingKatas\obj\Debug\C
 C:\Users\Oxana\Documents\Programming\GitHub\Coding-Katas\CodingKatas\obj\Debug\CodingKatas.pdb
 C:\Users\Oxana\Documents\Programming\GitHub\Coding-Katas\CodingKatas\bin\Debug\CodingKatas.exe
 C:\Users\Oxana\Documents\Programming\GitHub\Coding-Katas\CodingKatas\bin\Debug\CodingKatas.pdb
-C:\Users\Oxana\Documents\Programming\GitHub\Coding-Katas\CodingKatas\obj\Debug\CodingKatas.csprojResolveAssemblyReference.cache
