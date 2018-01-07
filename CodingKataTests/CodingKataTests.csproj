@@ -72,7 +72,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="EulerProject_Exercise19_Test - Copy.cs" />
+    <Compile Include="EulerProject_Exercise19_Test.cs" />
+    <Compile Include="EulerProject_Exercise5_Test.cs" />
     <Compile Include="NumbersInWords.cs" />
     <Compile Include="HarryBooks.cs" />
     <Compile Include="RomanNumerals.cs" />
