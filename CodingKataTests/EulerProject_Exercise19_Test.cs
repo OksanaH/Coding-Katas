@@ -1,16 +1,16 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+//using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CodingKataClassLibrary;
+using NUnit.Framework;
 
 namespace CodingKataTests
 {
   
-    [TestClass]
+    [TestFixture]  
     public class EulerProject_Exercise19_Test
     {
         //https://projecteuler.net/problem=19
-        [TestCategory("Number of Sundays in the last century")]
-        [TestMethod]
+        [Test]
         public void Verify_NumberOfSundays_LastCentury()
         {
             SundaysCalculator calculator = new SundaysCalculator();
