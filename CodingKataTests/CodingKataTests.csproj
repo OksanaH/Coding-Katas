@@ -72,12 +72,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="EulerProject_Exercise19_Test - Copy.cs" />
-    <Compile Include="NumbersInWords.cs" />
-    <Compile Include="HarryBooks.cs" />
-    <Compile Include="RomanNumerals.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="EulerProject_Exercise4_Test.cs" />
+    <Compile Include="EulerProject_Exercise17.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
