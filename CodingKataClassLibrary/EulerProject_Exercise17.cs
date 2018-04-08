@@ -32,29 +32,47 @@ namespace CodingKataClassLibrary
         { "","","twenty","thirty","fourty","fifty","sixty","seventy",
           "eighty", "ninety"};
 
+        private List<KeyValuePair<int,int>>Divisors { get; set; }
         public LettersCount()
         {
-           
+           Divisors = new List<KeyValuePair<int, int>>();
+           Divisors.Add(new KeyValuePair<int, int>(2, 10));
+           Divisors.Add(new KeyValuePair<int, int>(3, 100));
+        }
+        
+        public int CalculateLettersForaRange(int start, int end)
+        {
+            int sum = 0;
+            for (int i=start; i<= end; i++)
+            {
+                sum += GetLettersCountInNumber(i);
+            }
+            if (end==1000)
+            {
+                sum += 8;
+            }
+            return sum;
+        }
+        public int GetLettersCountInNumber(int number)
+        {
+            return GetNumberInWords(number).Replace(" ", "").Replace("-", "").Length;
         }
         public string GetNumberInWords(int number)
         {
             string result = "";
-            if (number.ToString().Length<=2 && number < OneToTwoDigitWords.Length)
+            int length = number.ToString().Length;
+            int divisor = Divisors.Where(d => d.Key == length)
+                .Select(d => d.Value)
+                .SingleOrDefault();
+            if (length<=2 && number < OneToTwoDigitWords.Length)
             {
                 result = OneToTwoDigitWords[number];
             }
             else
             {               
-                if (number.ToString().Length==2)
-                {
-                    result = GetNumber(number, 10);
-                }
-                if (number.ToString().Length ==3)
-                {
-                    result = GetNumber(number, 100);
-                }
-            }
-            
+                result = GetNumber(number, divisor);
+                
+            }           
             
             return result;
         }
@@ -62,44 +80,51 @@ namespace CodingKataClassLibrary
         private string GetNumber(int number, int divisor) //divisor=10 or 100
         {
             string result = "";
-            if (number % divisor > 0)
+            try
             {
-                string lastDigit = "";
-                if (divisor==10)
+                if (number % divisor > 0)
                 {
-                    lastDigit = OneToTwoDigitWords[number % 10];
-                    if (!String.IsNullOrEmpty(lastDigit))
+                    string lastDigit = "";
+                    if (divisor == 10)
                     {
-                        result = Tens[number / 10] + (number / 10>0 ? "-":"")+ lastDigit;
+                        lastDigit = OneToTwoDigitWords[number % 10];
+                        if (!String.IsNullOrEmpty(lastDigit))
+                        {
+                            result = Tens[number / 10] + (number / 10 > 0 ? "-" : "") + lastDigit;
+                        }
+                        else
+                        {
+                            result = Tens[number / 10];
+                        }
                     }
-                    else
+                    if (divisor == 100)
                     {
-                        result = Tens[number / 10];
-                    }                  
-                   
-                }
-                if (divisor==100)
-                {
-                    result = GetNumber(number % 100, 10);
-                    result = OneToTwoDigitWords[number / 100] + " hundred and " + result;
-                }
-                    
-            }
-            else
-            {
-                if (divisor==10)
-                {
-                    result = Tens[number / 10];
+                        result = GetNumber(number % 100, 10);
+                        result = OneToTwoDigitWords[number / 100] + " hundred and " + result;
+                    }
+
                 }
                 else
                 {
-                    result = OneToTwoDigitWords[number / 100] + " hundred";
+                    if (divisor == 10)
+                    {
+                        result = Tens[number / 10];
+                    }
+                    else
+                    {
+                        result = OneToTwoDigitWords[number / 100] + " hundred";
+                    }
+
                 }
-                
             }
+            catch (Exception ex)
+            {
+
+            }
+            
+            
             return result;
         }
-    }
-    
+    }   
 
 }

@@ -65,5 +65,28 @@ namespace CodingKataTests
             string actual = lc.GetNumberInWords(number);
             Assert.AreEqual(expected, actual);
         }
+
+        [TestCase(101, 16)]
+        [TestCase(225, 23)]
+        [TestCase(690, 19)]
+        [TestCase(1, 3)]
+        [TestCase(17, 9)]
+        [TestCase(75, 11)]
+        public void Verify_YouCanGet_NumbersLength(int number, int expected)
+        {
+            LettersCount lc = new LettersCount();
+            int actual = lc.GetLettersCountInNumber(number);
+            Assert.AreEqual(expected, actual);
+        }
+        [TestCase(1,2, 6)]
+        [TestCase(10,20, 76)]
+        [TestCase(1,1000,20915)]
+       
+        public void Verify_YouCanCalculate_TotalLettersForARange(int start, int end, int expected)
+        {
+            LettersCount lc = new LettersCount();
+            int actual = lc.CalculateLettersForaRange(start,end);
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
