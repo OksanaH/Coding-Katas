@@ -15,3 +15,5 @@ C:\Users\Oxana\Documents\Programming\GitHub\CodingKatas\CodingKatas\obj\Debug\Co
 C:\Users\Oxana\Documents\Programming\GitHub\Coding-Katas\CodingKatas\bin\Debug\CodingKatas.exe.config
 C:\Users\Oxana\Documents\Programming\GitHub\Coding-Katas\CodingKatas\obj\Debug\CodingKatas.exe
 C:\Users\Oxana\Documents\Programming\GitHub\Coding-Katas\CodingKatas\obj\Debug\CodingKatas.pdb
+C:\Users\Oxana\Documents\Programming\GitHub\Coding-Katas\CodingKatas\bin\Debug\CodingKatas.exe
+C:\Users\Oxana\Documents\Programming\GitHub\Coding-Katas\CodingKatas\bin\Debug\CodingKatas.pdb

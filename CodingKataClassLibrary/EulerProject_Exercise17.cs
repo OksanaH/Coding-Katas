@@ -28,16 +28,76 @@ namespace CodingKataClassLibrary
           "twelve","thirteen","fourteen","fifteen","sixteen","seventeen",
           "eighteen", "nineteen"};
 
+        private string[] Tens = new string[]
+        { "","","twenty","thirty","fourty","fifty","sixty","seventy",
+          "eighty", "ninety"};
+
         public LettersCount()
         {
-
+           
         }
         public string GetNumberInWords(int number)
         {
             string result = "";
-            result = OneToTwoDigitWords[number];
+            if (number.ToString().Length<=2 && number < OneToTwoDigitWords.Length)
+            {
+                result = OneToTwoDigitWords[number];
+            }
+            else
+            {               
+                if (number.ToString().Length==2)
+                {
+                    result = GetNumber(number, 10);
+                }
+                if (number.ToString().Length ==3)
+                {
+                    result = GetNumber(number, 100);
+                }
+            }
+            
+            
             return result;
+        }
 
+        private string GetNumber(int number, int divisor) //divisor=10 or 100
+        {
+            string result = "";
+            if (number % divisor > 0)
+            {
+                string lastDigit = "";
+                if (divisor==10)
+                {
+                    lastDigit = OneToTwoDigitWords[number % 10];
+                    if (!String.IsNullOrEmpty(lastDigit))
+                    {
+                        result = Tens[number / 10] + (number / 10>0 ? "-":"")+ lastDigit;
+                    }
+                    else
+                    {
+                        result = Tens[number / 10];
+                    }                  
+                   
+                }
+                if (divisor==100)
+                {
+                    result = GetNumber(number % 100, 10);
+                    result = OneToTwoDigitWords[number / 100] + " hundred and " + result;
+                }
+                    
+            }
+            else
+            {
+                if (divisor==10)
+                {
+                    result = Tens[number / 10];
+                }
+                else
+                {
+                    result = OneToTwoDigitWords[number / 100] + " hundred";
+                }
+                
+            }
+            return result;
         }
     }
     
